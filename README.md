@@ -8,9 +8,9 @@ CodeReady Containers requires the following minimum hardware and operating syste
 ## Hardware requirements
 CodeReady Containers requires the following system resources:
 
-Markup : * 4 virtual CPUs (vCPUs) 
-         * 8 GB of memory
-         * 35 GB of storage space
+* 4 virtual CPUs (vCPUs) 
+* 8 GB of memory
+* 35 GB of storage space
 
 
 # Setup CRC Containers on Local 
