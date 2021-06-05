@@ -1,3 +1,19 @@
+# CodeReady Containers
+This cluster provides a minimal environment for development and testing purposes. It’s mainly targetted at running on developers' desktops. 
+CodeReady Containers includes the crc command-line interface (CLI) to interact with the CodeReady Containers virtual machine running the OpenShift cluster.
+
+# System Requirements
+CodeReady Containers requires the following minimum hardware and operating system requirements.
+
+## Hardware requirements
+CodeReady Containers requires the following system resources:
+
+4 virtual CPUs (vCPUs)  |
+8 GB of memory  |
+35 GB of storage space  |
+
+
+
 # Setup CRC Containers on Local 
 
 Openshift comes with flavors and each has its specific usage. In order to learn, you can install Openshift locally with RedHat CodeReady Containers.
