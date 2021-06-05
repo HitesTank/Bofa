@@ -12,6 +12,15 @@ CodeReady Containers requires the following system resources:
 * 8 GB of memory
 * 35 GB of storage space
 
+### Note: These requirements must be met in order to run OpenShift in the CodeReady Containers virtual machine. 
+
+## Required software packages
+CodeReady Containers requires the libvirt and NetworkManager packages. 
+
+```
+sudo apt install qemu-kvm libvirt-daemon libvirt-daemon-system network-manager
+```
+
 
 # Setup CRC Containers on Local 
 
@@ -51,10 +60,7 @@ The installation guide contains download link for CodeReady Containers for Linux
 
 The installation guide contains hardware requirements which can found below:
 
-
-Markup: * 4 virtual CPUs (vCPUs)
-        * 9 GB of RAM
-        * 35 GB of disk space for the virtual disk
+### Note: The crc binary should not be run as root (or Administrator). The crc binary should always be run with your user account.
 
 Downloaf CodeReady Containers from archive and download the pull secret to local location.
 
