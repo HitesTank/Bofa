@@ -45,7 +45,7 @@ objects:
           deploymentconfig: openshift-git
       spec:
         containers:
-        - image: image-registry.openshift-image-registry.svc:5000/milindchavan-24-dev/openshift-git@sha256:fd58db8f0fca03d0dc16802658f2efdcc66e68621dac0f58c55af5db659ee82f
+        - image: image-registry.openshift-image-registry.svc:5000/openshift/java@sha256:c343983d08baf2b3cc19483734808b07523a0860a5b17fdcb32de2d1b85306ca
           imagePullPolicy: Always
           name: "${app}"
           ports:
